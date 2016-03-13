@@ -16,11 +16,14 @@ Essas alterações são o diretório onde ficou sua instalação do Telegram e o
 
 Basta especificar os diretórios corretamente.
 
-Mova o arquivo Envia-Alerta.sh para a pasta "tg" onde está instalado o Telegram.
+Mova os arquivos Alerta-Telegram.sh e o Envia-Alerta.sh para a pasta "tg" onde está instalado o Telegram.
 
 # Faça o agendamento no cron
 
-*/10  * * * cd /root && ./Alerta-Telegram.sh
+*/10  * * * cd tg && ./Alerta-Telegram.sh
+
+*obs: o acesso ao diretório "tg" do Telegram, pode ou deve ser alterado para o correto.
+Exemplo: cd /home/usuário/tg
 
 
 
