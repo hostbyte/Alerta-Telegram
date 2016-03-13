@@ -24,6 +24,7 @@ else
 # IPs que não respondem a ping, mostra a mensagem offline e é encaminhado para lista Alerta.txt
 echo $Check "Offline" > /root/Alerta.txt
 # Acessando diretório do Telegram e executando o script Envia-Alerta
+# O "Alerta Telegram" será a primera mensagem enviada pelo Telegram, logo após ele enviara o ip offline
 cd /root/tg && ./Envia-Alerta "Alerta Telegram"
 # Limpando a lista Alerta.txt
 echo > /root/Alerta.txt
