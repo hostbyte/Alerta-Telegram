@@ -1,10 +1,13 @@
 #!/bin/bash
+# Autor: Alessandro Almeida
+# E-mail: alessandro@ipshost.com.br
+# Telefone: (53) 8125-9194
+# Website: https://www.isphost.com.br
 
-## Substituir 'to' com o nome da conta ou grupo
+# Substituir 'to' com o nome da conta ou grupo
 
 to=Usuário ou Grupo que vai receber os alertas
 
-##
 
 function show_usage {
 
