@@ -12,7 +12,7 @@ Aqui usei o diretório /root, mas nada impede que use o diretório do seu usuár
 
 O script Alerta-Telegram.sh e o Envia-Alerta.sh tem que ser aberto e editado para fazer as alterações de sua necessidade.
 
-Essas alterações são o diretório onde ficou sua instalação do Telegram e o usuário ou grupo que vai receber os alertas.
+Essas alterações são o diretório onde ficou sua instalação do Telegram e o usuário que vai receber os alertas.
 
 Basta especificar os diretórios corretamente.
 
@@ -22,7 +22,10 @@ Mova os arquivos Alerta-Telegram.sh e o Envia-Alerta.sh para a pasta "tg" onde e
 
 */10  * * * cd tg && ./Alerta-Telegram.sh
 
-*obs: o acesso ao diretório "tg" do Telegram, pode ou deve ser alterado para o correto.
+O agendamento acima vai rodar de 10 em 10 minutos. Ajuste a sua necessidade.
+
+*Obs: o acesso ao diretório "tg" do Telegram, pode ou deve ser alterado para o correto.
+
 Exemplo: cd /home/usuário/tg
 
 
