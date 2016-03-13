@@ -23,4 +23,4 @@ then
   show_usage
 fi
 
-(echo "contact_list";sleep 10;echo "msg $to $1"; echo "contact_list";sleep 10; echo "send_text $to /root/Alerta.txt"; echo "safe_quit") | Telegram
+(echo "contact_list";sleep 10;echo "msg $to $1"; echo "contact_list";sleep 10; echo "send_text $to Alerta.txt"; echo "safe_quit") | Telegram
